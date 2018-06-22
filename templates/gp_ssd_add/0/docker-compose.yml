@@ -1,7 +1,7 @@
 version: '2'
 services:
   gpnode3:
-     image: 10.0.0.96:5000/database/centos_greenplum:v2 
+     image: 10.0.0.96:5000/database/gp_conf_5.7:v1
      hostname: sdw3
      labels:
       io.rancher.scheduler.global: 'true'
